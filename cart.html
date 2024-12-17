@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <!-- navbar -->
+
+    <nav>
+        <a href="/">
+            <img src="./amazon_logo.png" width="100" alt="">
+        </a>
+        <div class="nav-country">
+            <img src="location_icon.png" height="20" alt="">
+            <div>
+                <p>Deliver to</p>
+                <h1>India</h1>
+            </div>
+        </div>
+        <div class="nav-search">
+            <div class="nav-search-category">
+                <p>All</p>
+                <img src="dropdown_icon.png" height="12" alt="">
+            </div>
+            <input type="text" class="nav-search-input" placeholder="Search Products">
+            <img src="search_icon.png" class="nav-search-icon" alt="">
+        </div>
+        <div class="nav-language">
+            <img src="us_flag.png" width="25px" alt="">
+            <p>
+                <label for="languages">EN</label>
+                <select name="LANGUAGE" id="">
+                    <option value=""></option>
+                </select>
+            </p>
+            <img src="dropdown_icon.png" width="8px" alt="">
+        </div>
+        <div class="nav-text">
+            <p><a href="/signin.html">Hello, Sign in</a></p>
+            <h1>Account & Lists <img src="dropdown_icon.png" width="8px" alt=""></h1>
+        </div>
+        <div class="nav-text">
+            <p>Return</p>
+            <h1>& Orders</h1>
+        </div>
+        <a href="/signin.html" class="mobile-user-icon" style="display: none;">
+            <img src="user.png" alt="">
+        </a>
+        <a href="cart.html" class="nav-cart">
+            <img src="cart_icon.png" width="35px" alt="">
+            <h4>Cart</h4>
+    </nav>
+
+    <!-- navbar-bottom -->
+
+    <div class="nav-bottom">
+        <div>
+            <img src="menu_icon.png" width="25px" alt="">
+            <p>All</p>
+        </div>
+        <a href="#">Today's Deals</a>
+        <a href="#">Customer Service</a>
+        <a href="#">Registry</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Sell</a>
+    </div>
+
+    <div class="cart">
+        <div class="cart-left">
+            <h1>Shopping Cart</h1>
+            <hr>
+
+            <!-- first-product -->
+
+            <div class="product-cart-list">
+                <img src="ipad_img.jpg" alt="iPad" width="180px"> 
+                <div>
+                    <div class="product-cart-titleprice">
+                        <p>Apple iPad (9th Generation) : with A13 Bionic chip, 10.2-inch Retina Display, 64GB, Wi-Fi, 12MP front/8MP Back Camera, Touch ID, All-Day Battery Life-Space Gray</p>
+                         <p><b>$249.00</b></p>
+                    </div>
+                    <p class="product-cart-bestseller"><a href="#"><span>#1 Best Seller</span></a> in Computer Tablets</p>
+                    <p class="product-cart-stock">In Stock</p>
+                    <p class="product-cart-delivery">FREE delivery <b>Mon, Jan 29</b> available at checkout</p>
+                    <p class="product-cart-returns">FREE Returns &#11191</p>
+                    <p class="product-cart-giftoption">Gift options not available <a href="#"><span>Learn more</span></a></p>
+
+                    <div class="product-cart-specs">
+                        <p><b>Style:</b></p> <p>Wifi</p>
+                        <p><b>Size:</b></p> <p>64GB</p>
+                        <p><b>Color:</b></p> <p>Space Gray</p>
+                    </div>
+
+                    <div class="cart-list-action">
+                        <select>
+                            <option value="1">QTY: 1</option>
+                            <option value="2">QTY: 2</option>
+                            <option value="3">QTY: 3</option>
+                            <option value="4">QTY: 4</option>
+                            <option value="5">QTY: 5</option>
+                        </select>
+                        <hr>
+                        <p class="action-btn">Delete</p><hr>
+                        <p class="action-btn">Save for later</p><hr>
+                        <p class="action-btn">Compare with similar items</p><hr>
+                        <p class="action-btn">Share</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- second-product -->
+
+            <div class="product-cart-list">
+                <img src="product_img.jpg" alt="" width="180px">
+                <div>
+                    <div class="product-cart-titlelist">
+                        <p>BENGOO G9000 Stereo Gaming Headset for PS4 PC Xbox One PS5 Controller, Noise Cancelling Over Ear Headphones with Mic, LED Light, Bass Surround, Soft Memory Earmuffs (Blue)</p>
+                         <p><b>$25.99</b></p>
+                    </div>
+                    <p class="product-cart-bestseller"><a href="#"><span>#1 Best Seller</span></a> in PC Game Headset</p>
+                    <p class="product-cart-stock">In Stock</p>
+                    <p class="product-cart-delivery">FREE delivery <b>Mon, Jan 29</b> available at checkout</p>
+                    <p class="product-cart-returns">FREE Returns &#11191</p>
+                    <p class="product-cart-giftoption">Gift options not available <a href="#"><span>Learn more</span></a></p>
+
+                    <div class="product-cart-specs">
+                        <p><b>Style:</b></p> <p>Wired</p>
+                        <p><b>Size:</b></p> <p>Free</p>
+                        <p><b>Color:</b></p> <p>Blue</p>
+                    </div>
+
+                    <div class="cart-list-action">
+                        <select>
+                            <option value="1">QTY: 1</option>
+                            <option value="2">QTY: 2</option>
+                            <option value="3">QTY: 3</option>
+                            <option value="4">QTY: 4</option>
+                            <option value="5">QTY: 5</option>
+                        </select>
+                        <hr>
+                        <p class="action-btn">Delete</p><hr>
+                        </a><p class="action-btn">Save for later</p><hr>
+                        <p class="action-btn">Compare with similar items</p><hr>
+                        </a><p class="action-btn">Share</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="cart-list-subtotal">
+                Subtotal(2 items): <b>$274.99</b>
+            </div>
+        </div>
+        <div class="cart-right">
+            <div class="cart-free-delivery">
+                <p>&#x2705</p>
+                <p>Your order qualifies for FREE Shipping. <b>Choose this option at checkout</b> <a href="#">See details</a></p>
+            </div>
+            <p class="cart-subtotal">Subtotal(2 items): <b>$274.99</b></p>
+            <p class="cart-right-gift"> <input type="checkbox"> This order contains a gift.</p>
+            <button>Proceed to checkout</button>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="product-footer">
+        <div class="footer-panel2">
+            <ul>
+                <h4>Get to know</h4>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+            <ul>
+                <h4>Get to know</h4>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+            <ul>
+                <h4>Get to know</h4>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+            <ul>
+                <h4>Get to know</h4>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+        </div><hr>
+        <div class="foot-panel3">
+            <a href="index.html"><div class="logo-2"></div></a>
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <a href="#">Condition of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2024, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
